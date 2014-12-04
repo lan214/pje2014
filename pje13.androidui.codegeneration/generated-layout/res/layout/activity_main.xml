@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:layout_orienation="horizontal"
+    android:layout_height="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView
+		android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:text="Voici un texte 1"/>
+	
+	<Button
+		android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:text="Bouton1"/>
+	
+	<LinearLayout
+		android:layout_orienation="horizontal"
+	    android:layout_height="fill_parent"
+		android:layout_height="fill_parent">
+	
+		<TextView
+			android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:text="Voici un texte 2"/>
+		
+		
+	</LinearLayout>
+</LinearLayout>

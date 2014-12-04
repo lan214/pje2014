@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidUI:Page xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:androidUI="http:///androidUI.ecore" name="activity_main2">
+  <root_element xsi:type="androidUI:LinearLayout">
+    <contentView xsi:type="androidUI:TextView"/>
+    <contentView xsi:type="androidUI:Button"/>
+  </root_element>
+</androidUI:Page>

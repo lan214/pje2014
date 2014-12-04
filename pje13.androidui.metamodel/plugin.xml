@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated androidUI -->
+      <package
+            uri="http:///androidUI.ecore"
+            class="androidUI.AndroidUIPackage"
+            genModel="models/androidUI.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated androidUI -->
+      <package
+            uri="http:///androidUI/datatype.ecore"
+            class="androidUI.datatype.DatatypePackage"
+            genModel="models/androidUI.genmodel"/>
+   </extension>
+
+</plugin>
